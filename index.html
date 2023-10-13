@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DRR Report Redesign</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <table class="container">
+    <thead>
+      <tr>
+        <th>Action</th>
+        <th>Id</th>
+        <th>Start Date</th>
+        <th>End Date</th>
+        <th>Month Year</th>
+        <th>Dates Excluded</th>
+        <th>Number of Days</th>
+        <th>Lead Count</th>
+        <th>Expected DRR</th>
+        <th>Last Update</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>NA</td>
+        <td>NA</td>
+        <td><input type="date" id="start-date"></td>
+        <td><input type="date" id="end-date"></td>
+        <td><div id="month-year"></div></td>
+        <td><input type="date" id="exclude-dates" ></td>
+        <td><div id="number-of-days"></div></td>
+        <td><input type="text" id="lead-count" placeholder="Lead count"></td>
+        <td><input type="text" id="expected-ddr" placeholder="Do not enter"></td>
+        <td>
+            <input type="submit" id="last-update" value="Save">
+            <input type="submit" id="cancel" value="Cancel">
+        </td>
+      </tr>
+      <hr>
+      <tbody id="data-table-body">
+        <tr>
+          
+        </tr>
+      </tbody>
+    </tbody>
+  </table>
+
+
+
+  <script src="index.js"></script>
+</body>
+</html>
